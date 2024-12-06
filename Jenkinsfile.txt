@@ -1,0 +1,15 @@
+pipeline{
+    agent any
+    stages{
+        stage('Clones'){
+            steps{
+                echo 'Cloned SuccessFully'
+            }
+        }
+        stage('Completed'){
+            steps{
+                echo 'Task is completed'
+            }
+        }
+    }
+}

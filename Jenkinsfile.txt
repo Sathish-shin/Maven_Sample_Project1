@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage('Clones'){
             steps{
-                bat 'mvn install'
+                bat 'mvn install'  
             }
         }
         stage('Completed'){

@@ -6,7 +6,7 @@ pipeline{
                 sh 'mvn install'  
             }
         }
-        stage('Completed'){
+        stage('Completed'){  
             steps{
                 echo 'installed successfully'
             }
